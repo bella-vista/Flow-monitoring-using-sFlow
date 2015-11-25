@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<metrics>
+  <!-- Flow keys are a set of comma delimited packet attributes -->
+  flood3,flood4,tcp1,sum:ifinpkts,avg:ifinpkts,max:ifinpkts,min:ifinpkts,sum:ifoutpkts,avg:ifoutpkts,avg:ifinucastpkts,sum:ifinucastpkts,avg:ifoutucastpkts,sum:ifoutucastpkts,sum:ifinmulticastpkts,avg:ifinmulticastpkts,sum:ifinbroadcastpkts,avg:ifinbroadcastpkts,sum:ifinerrors,sum:ifindiscards,sum:ifouterrors,sum:ifoutdiscards,max:ifinpkts,max:ifinerrors,max:ifindiscards,max:ifouterrors,max:ifoutdiscards
+</metrics>

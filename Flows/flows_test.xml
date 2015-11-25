@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<flows>
+  <!-- Flow keys are a set of comma delimited packet attributes -->
+ 	<flow name="flood3" keys="ipsource" value="bytes" />
+  <flow name="flood4" keys="ipsource,ipdestination" value="frames" />
+  <flow name="tcp1" keys="ipsource,ipdestination,tcpsourceport,tcpdestinationport" value="frames" filter="ipsource=192.168.1.1&amp;ipdestination=192.168.1.2" />
+</flows>
